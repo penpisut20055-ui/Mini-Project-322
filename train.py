@@ -16,7 +16,7 @@ np.random.seed(42)
 n = 200
 
 data = pd.DataFrame({
-    "area": np.random.randint(30, 500, n),
+    "area": np.random.randint(30, 200, n),
     "bedrooms": np.random.randint(1, 5, n),
     "bathrooms": np.random.randint(1, 4, n),
     "age": np.random.randint(0, 30, n),
