@@ -28,7 +28,7 @@ The dataset contains housing information used to predict house prices.
 - `area` → House area (square meters)
 - `bedrooms` → Number of bedrooms
 - `bathrooms` → Number of bathrooms
-- `parking` → Number of parking spaces
+- `age` → Number of House age
 
 ### 🔹 Dataset Size
 - Samples: (ใส่จำนวน rows ของ dataset ที่คุณใช้)
@@ -64,7 +64,7 @@ The web application is built using Streamlit.
 - Area
 - Bedrooms
 - Bathrooms
-- Parking
+- age
 
 ### Output:
 - Predicted House Price
